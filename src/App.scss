@@ -1,0 +1,18 @@
+@import './scss/bootstrap';
+
+#root{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+    main{
+        flex: 1 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+    border: 0;
+}
